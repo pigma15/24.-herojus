@@ -1,16 +1,3 @@
-/*
-
-function myFunction() {
-    let x = document.querySelector("#skin input:checked").value;
-    document.querySelector('.face').className = x
-  }
-
-*/
-
-/* const op = document.querySelector('#skin > input:checked').value;
-console.log(op); */
-
-
 function skinChange() {
     let x = document.querySelector("#skin > input:checked").value;
     let y = document.querySelector("#hairLength > input:checked").value;
@@ -63,13 +50,13 @@ function beardColor() {
          x.innerHTML = '';
          x.className = `nose`;
     } else if (z === 'nose1') {
-         x.innerHTML = '<img src="/nose1.png" alt="nose1"></img>';
+         x.innerHTML = '<img src="./nose1.png" alt="nose1"></img>';
          x.className = `nose`;
     } else if (z === 'nose2') {
-        x.innerHTML = '<img src="/nose2.png" alt="nose2"></img>';
+        x.innerHTML = '<img src="./nose2.png" alt="nose2"></img>';
         x.className = `nose`
     } else if ( z === 'mask') {
-        x.innerHTML = '<img src="/mask.png" alt="mask"></img>';
+        x.innerHTML = '<img src="./mask.png" alt="mask"></img>';
         x.className = `nose mask`;
     } else {
         x.innerHTML = '';
