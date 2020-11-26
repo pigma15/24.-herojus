@@ -1,0 +1,109 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-image: url(/metro.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 30% 65% 1fr;
+}
+
+    .form {
+        display: inline-block;
+        grid-column: 2/3;
+        background-color: #fff4;
+        margin-top: 3vh;
+    }
+
+        p {
+            display: inline-block;
+            width: 100%;
+        }
+            p::after {
+                content: ':';
+            }
+
+        label {
+            display: inline-block;
+            width: 50%;
+        }
+            label::after {
+                content: ':';
+            }
+    .main {
+        display: flex;
+        justify-content: center;
+        grid-column: 3/4;
+        width: 90%;
+        height: 90vh;
+        margin: 5vh 5%;
+        background-color: #0004;
+    }
+        .hair {
+            display: inline-block;
+            background-color: black;
+            width: 50%;
+            height: 50vh;
+            margin-top: 10vh;
+            padding: 0%;
+            border: 0px solid #0000;
+            border-radius: 20%;
+            transition: 1s;
+        }
+            .hair:hover {
+                width: 60%;
+                padding: 0% 5%;
+            }
+            .face {
+                display: flex;
+                background-color: wheat;
+                justify-content: space-around;
+                margin-top: 25%;
+                width: 100%;
+                height: 100%;
+                border-bottom: 20px black solid;
+                border-bottom-left-radius: 100px;
+                border-bottom-right-radius: 100px;
+                transition: 0.5s;
+            }
+                .eyes {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: green;
+                    width: 20%;
+                    height: 18%;
+                    margin-top: 20%;
+                    border: 1px solid #0000;
+                    border-radius: 50%;
+                    transition: 1s;
+                }
+                    .eyes:hover {
+                        height: 0%;
+                        margin-top: 29%;
+                        cursor: pointer;
+                    }
+                    .pupil {
+                        display: inline-block;
+                        width: 50%;
+                        height: 50%;
+                        background-color: black;
+                        border: 1px solid black;
+                        border-radius: 50%;
+                    }
+.light {
+    background-color: #eed8df;
+}
+.dark {
+    background-color: rgb(43, 16, 16);
+}
+.yellow {
+    background-color: rgb(230, 208, 13);
+}
