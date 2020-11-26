@@ -48,24 +48,21 @@ body {
     }
         .hair {
             display: inline-block;
-            background-color: black;
+            background-color: #000;
             width: 50%;
             height: 50vh;
             margin-top: 10vh;
             padding: 0%;
             border: 0px solid #0000;
             border-radius: 20%;
-            transition: 1s;
+            transition: 0.5s;
         }
-            .hair:hover {
-                width: 60%;
-                padding: 0% 5%;
-            }
             .face {
                 display: flex;
-                background-color: wheat;
+                background-color: #0000;
+                background-image: none;
                 justify-content: space-around;
-                margin-top: 25%;
+                margin-top: 28%;
                 width: 100%;
                 height: 100%;
                 border-bottom: 20px black solid;
@@ -83,6 +80,7 @@ body {
                     margin-top: 20%;
                     border: 1px solid #0000;
                     border-radius: 50%;
+                    box-shadow: 0px 5px 3px grey;
                     transition: 1s;
                 }
                     .eyes:hover {
@@ -106,4 +104,41 @@ body {
 }
 .yellow {
     background-color: rgb(230, 208, 13);
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.blue {
+    background-color: blue;
+}
+
+.short {
+    width: 50%;
+    padding: 0%;
+}
+.long {
+    width: 60%;
+    padding: 0% 5%;
+}
+.blond {
+    background-color: rgb(250, 255, 179);
+    background-image: none;
+}
+.brown {
+    background-color: rgb(34, 23, 23);
+    background-image: none;
+}
+.black {
+    background-color: black;
+    background-image: none;
+}
+.grey {
+    background-color: rgb(187, 184, 184);
+    background-image: none;
+}
+.cyber {
+    background-image: linear-gradient(to left, hsl(120, 100%, 33%), hsl(300, 99%, 34%));
 }
