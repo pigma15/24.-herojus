@@ -25,6 +25,11 @@ body {
         p {
             display: inline-block;
             width: 100%;
+            color: white;
+            font-size: 22px;
+            line-height: 24px;
+            font-weight: bold;
+            text-transform: capitalize;
         }
             p::after {
                 content: ':';
@@ -33,6 +38,9 @@ body {
         label {
             display: inline-block;
             width: 50%;
+            color: white;
+            text-align: right;
+            font-size: 16px;
         }
             label::after {
                 content: ':';
@@ -48,7 +56,7 @@ body {
     }
         .hair {
             display: inline-block;
-            background-color: #000;
+            background-color: #0000;
             width: 50%;
             height: 50vh;
             margin-top: 10vh;
@@ -75,7 +83,7 @@ body {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    background-color: green;
+                    background-color: #00800000;
                     width: 20%;
                     height: 18%;
                     margin-top: 15%;
@@ -103,12 +111,14 @@ body {
                     padding: 0% 33%;
                     align-self: flex-end;
                     height: 65%;
+                    transition: 0.5s;
                 }
                     img {
                         display: inline-block;
                         width: 100%;
                         height: 60%;
                         margin-bottom: 40%;
+                        transition: 0.5s;
                     }
 .light {
     background-color: #eed8df;
@@ -169,6 +179,9 @@ body {
     border-bottom-color: black;
 }
 .greyb {
+    border-bottom-color: rgb(187, 184, 184);
+}
+.blueb {
     border-bottom-color: blue;
 }
 .greye {
@@ -178,6 +191,7 @@ body {
     background-color: rgb(61, 37, 32);
 }
 .mask {
+    margin-top: 5%;
     padding: 0% 0%;
     height: 100%;
 }

@@ -67,6 +67,7 @@ function beardColor() {
          x.className = `nose`;
     } else if (z === 'nose2') {
         x.innerHTML = '<img src="/nose2.png" alt="nose2"></img>';
+        x.className = `nose`
     } else if ( z === 'mask') {
         x.innerHTML = '<img src="/mask.png" alt="mask"></img>';
         x.className = `nose mask`;
