@@ -8,7 +8,7 @@ body * {
 }
 body {
     background-color: black;
-    background-image: url(./metro.jpg);
+    background-image: url(./pic/metro.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;

@@ -50,13 +50,13 @@ function beardColor() {
          x.innerHTML = '';
          x.className = `nose`;
     } else if (z === 'nose1') {
-         x.innerHTML = '<img src="./nose1.png" alt="nose1"></img>';
+         x.innerHTML = '<img src="./pic/nose1.png" alt="nose1"></img>';
          x.className = `nose`;
     } else if (z === 'nose2') {
-        x.innerHTML = '<img src="./nose2.png" alt="nose2"></img>';
+        x.innerHTML = '<img src="./pic/nose2.png" alt="nose2"></img>';
         x.className = `nose`
     } else if ( z === 'mask') {
-        x.innerHTML = '<img src="./mask.png" alt="mask"></img>';
+        x.innerHTML = '<img src="./pic/mask.png" alt="mask"></img>';
         x.className = `nose mask`;
     } else {
         x.innerHTML = '';
